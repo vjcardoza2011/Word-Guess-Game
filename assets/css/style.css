@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: #25088f;
+}
+
+
+h3{
+    font-family: "Georgia", cursive, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #680505;
+}
+
+h4 {
+    font-size: 2em;
+    color: #662492;
+}
+
+p {
+    font-family: "Georgia", cursive, sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: -55px;
+} 
+
+#guessedLetters {
+    color: #767F82;
+}
+
+#pressKey {
+    color: black;
+    margin-top: 0;
+    margin-bottom: -30px;
+}
+
+#wordanswer {
+    letter-spacing: .25em;
+    margin-top: 0;
+    color: #d0833b;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: flex;
+    background-color: rgba(172, 166, 166, 0.925);
+}
+
+/* .flexColumn {
+    flex-direction: column;
+} */
+
+.middle {
+    flex: 1;
+    order: 2;
+    padding: 20px;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+}
+
+.side {
+    width: 50%;
+    padding: 40px;
+}
+
+.left {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow-wrap: break-word;
+}
+
+.right{
+    order: 3;
+    overflow-wrap: break-word;
+}
+
+#wordanswer{
+    text-align: center;
+    letter-spacing: .25em;
+    margin-top: 0;
+    color: black;
+}
+
